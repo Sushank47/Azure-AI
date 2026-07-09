@@ -1,0 +1,21 @@
+# Ignore environmental secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore OS files
+.DS_Store
+
+# Ignore datasets (if you want to keep them local)
+datasets/*.json
+datasets/*.csv
+
+# Ignore node modules and builds (in subdirectories)
+**/node_modules/
+**/.next/
+**/build/
+**/dist/
+**/.env
+**/*.log
